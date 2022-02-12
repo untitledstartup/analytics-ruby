@@ -19,7 +19,6 @@ module SegmentIO
     # @option options [Boolean] :stub (false) If true, requests don't hit the
     #   server and are stubbed to be successful.
     def initialize(options = {})
-      puts "hello``"
       Transport.stub = options[:stub] if options.has_key?(:stub)
       @client = SegmentIO::Analytics::Client.new options
     end
