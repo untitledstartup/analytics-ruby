@@ -1,10 +1,10 @@
 require 'thread'
 require 'time'
 
-require 'segment/analytics/defaults'
-require 'segment/analytics/logging'
-require 'segment/analytics/utils'
-require 'segment/analytics/worker'
+require 'segment_io/analytics/defaults'
+require 'segment_io/analytics/logging'
+require 'segment_io/analytics/utils'
+require 'segment_io/analytics/worker'
 
 module SegmentIO
   class Analytics

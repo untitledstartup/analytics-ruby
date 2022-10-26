@@ -1,1 +1,1 @@
-require 'segment'
+require 'segment_io'

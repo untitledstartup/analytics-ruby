@@ -1,13 +1,13 @@
-require 'segment/analytics/version'
-require 'segment/analytics/defaults'
-require 'segment/analytics/utils'
-require 'segment/analytics/field_parser'
-require 'segment/analytics/client'
-require 'segment/analytics/worker'
-require 'segment/analytics/transport'
-require 'segment/analytics/response'
-require 'segment/analytics/logging'
-require 'segment/analytics/test_queue'
+require 'segment_io/analytics/version'
+require 'segment_io/analytics/defaults'
+require 'segment_io/analytics/utils'
+require 'segment_io/analytics/field_parser'
+require 'segment_io/analytics/client'
+require 'segment_io/analytics/worker'
+require 'segment_io/analytics/transport'
+require 'segment_io/analytics/response'
+require 'segment_io/analytics/logging'
+require 'segment_io/analytics/test_queue'
 
 module SegmentIO
   class Analytics

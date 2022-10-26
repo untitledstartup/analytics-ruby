@@ -1,4 +1,4 @@
-require 'segment/analytics/defaults'
+require 'segment_io/analytics/defaults'
 
 module SegmentIO
   class Analytics

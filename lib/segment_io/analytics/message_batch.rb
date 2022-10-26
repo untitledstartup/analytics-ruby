@@ -1,5 +1,5 @@
 require 'forwardable'
-require 'segment/analytics/logging'
+require 'segment_io/analytics/logging'
 
 module SegmentIO
   class Analytics
